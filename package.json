@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "author": "taoyage",
+  "devDependencies": {
+    "@taoyage/configs": "^1.3.3",
+    "eslint": "^8.23.0",
+    "husky": "^8.0.0",
+    "lerna": "^5.4.3"
+  }
+}
