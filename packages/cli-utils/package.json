@@ -6,20 +6,28 @@
     "react",
     "cli",
     "yg-cli",
-    "cli-utils"
+    "cli-utils",
+    "utils"
   ],
   "author": "taoyage <tougakaku@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/taoyage/yg-cli",
   "license": "MIT",
-  "main": "lib/cli-utils.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoyage/yg-cli.git",
+    "directory": "packages/cli"
   },
   "files": [
-    "lib"
+    "lib",
+    "index.js"
   ],
   "scripts": {
     "test": "node ./__tests__/cli-utils.test.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "log": "^6.3.1",
+    "semver": "^7.3.7"
   }
 }
